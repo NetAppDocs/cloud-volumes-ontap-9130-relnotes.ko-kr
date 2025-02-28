@@ -70,7 +70,6 @@
   <block id="0066e8873a17823db601b98ebbc37dd2" category="section-title">HA 제한 사항</block>
   <block id="b1969fa9ebe4dd2003618adb77082978" category="paragraph">일부 지역에서는 HA 쌍이 지원되지 않습니다.</block>
   <block id="d91c9372e1fdf74d651217f1a36e518b" category="inline-link">지원되는 Azure 지역 목록을 봅니다</block>
-  <block id="1e6996b39daf779b565c50c8411fbc8d" category="paragraph"><block ref="8e36f0f32d75ebd3c7851e726c538544" category="inline-link-rx"></block>.</block>
   <block id="00341a78c2eaf7d804cfe027a2f67870" category="summary">Cloud Volumes ONTAP는 AWS에서 스토리지 구성을 제한하여 안정적인 운영 기능을 제공합니다. 최상의 성능을 위해 시스템을 최대 값으로 구성하지 마십시오.</block>
   <block id="6870aed8e6dfc4f093d5b5c6f8a4d81c" category="doc">AWS에서의 스토리지 제한</block>
   <block id="b3dfe19c7d46d1f8795ac17bf3d5a909" category="paragraph">Cloud Volumes ONTAP는 안정적인 운영을 제공하기 위해 스토리지 구성에 제한이 있습니다. 최상의 성능을 위해 시스템을 최대 값으로 구성하지 마십시오.</block>
@@ -372,7 +371,6 @@ HA 쌍: ^1^의 노드에서 18개</block>
   <block id="afea36f2c9999a231c58b7e9dcf3b16e" category="list-text">Cloud Volumes ONTAP는 예약된 EC2 인스턴스 또는 주문형 EC2 인스턴스에서 실행할 수 있습니다. 다른 인스턴스 유형을 사용하는 솔루션은 지원되지 않습니다.</block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">지원 지역</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Cloud Volumes 글로벌 지역</block>
-  <block id="4375839c669e051e5f2a8de11ba0c5d0" category="paragraph">AWS 지역 지원은 를 참조하십시오<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="5520e32d61a58dff51fc6730939c3baf" category="summary">Cloud Volumes ONTAP은 안정적인 운영을 제공하기 위해 Google Cloud에서 스토리지 구성 제한을 가지고 있습니다. 최상의 성능을 위해 시스템을 최대 값으로 구성하지 마십시오.</block>
   <block id="c73908091fadeb9dec16abab42821644" category="doc">Google Cloud의 스토리지 제한</block>
   <block id="b5110a96ee31f0d84f4df3d51e44588e" category="paragraph">일부 구성에서는 디스크 제한만으로 용량 제한에 도달하지 못합니다. 용량 제한에 도달할 수 있습니다<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>. 자세한 내용은 아래의 디스크 제한을 참조하십시오.</block>
@@ -481,7 +479,6 @@ HA 쌍: ^1^의 노드에서 18개</block>
   <block id="0e3cb01898d99d0091e2a6f5a7572390" category="paragraph">이 기계 유형에서 실행 중인 기존 시스템이 있는 경우 계속 사용할 수 있지만 n2-standard-4 기계 유형으로 전환하는 것이 좋습니다.</block>
   <block id="5063d3259058d90bbca06465957626d7" category="list-text">SSD를 사용할 경우 향상된 쓰기 성능이 활성화됩니다.</block>
   <block id="30749b02bc62d931d770e6c719254e7b" category="list-text">BlueXP 인터페이스는 Standard 및 BYOL:n1-highmem-4에 대해 지원되는 추가 시스템 유형을 보여 줍니다. 그러나 이 기계 유형은 생산 환경에 사용할 수 없습니다. 특정 연구소 환경에서만 사용할 수 있도록 만들었습니다.</block>
-  <block id="7093754c2bc2f151c7deef337385971a" category="list-text">Google Cloud Platform 지역 지원은 를 참조하십시오<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="e7089e61c962cfdae0de5b1d0748b6f2" category="list-text">Cloud Volumes ONTAP는 클라우드 공급자의 예약된 VM 인스턴스 또는 주문형 VM 인스턴스에서 실행될 수 있습니다. 다른 VM 인스턴스 유형을 사용하는 솔루션은 지원되지 않습니다.</block>
   <block id="8e8865183ac138d80e1eac90bc023d09" category="list-text">Cloud Volumes ONTAP 소프트웨어 버전 9.13.0,_Flash Cache_, 고속 쓰기 속도 및 8,896바이트의 더 높은 MTU(최대 전송 단위)를 사용하여 다음의 HA 쌍 구축 인스턴스를 사용할 수 있습니다.</block>
   <block id="f23467ff8f84fc95ca2baa4b362c7865" category="inline-link">Google Cloud에서 HA 쌍 시작</block>
@@ -641,7 +638,6 @@ PAYGO가 있는 단일 노드의 물리적 용량 352TiB
   <block id="d2f103c82b43ca5f2da33f93d94bde64" category="paragraph">새 Cloud Volumes ONTAP 시스템을 배포할 때 이러한 VM 유형을 선택하면 VNVRAM에 Ultra SSD를 사용하지 않는 다른 VM 유형으로 변경할 수 없습니다. 예를 들어, E8ds_v4에서 E8s_v3으로 변경할 수는 없지만 두 VM 유형 모두 Ultra SSD를 사용하므로 E8ds_v4에서 E32ds_v4로 변경할 수 있습니다.</block>
   <block id="c0f95d0d2e06eba7eb0522dabf1c9d76" category="paragraph">반대로 다른 VM 유형을 사용하여 Cloud Volumes ONTAP를 구축한 경우 VNVRAM용 Ultra SSD를 사용하는 VM 유형으로 변경할 수 없습니다. 예를 들어, E8s_v3에서 E8ds_v4로 변경할 수 없습니다.</block>
   <block id="07daff7fe86cfb582b0c246d7cefb754" category="list-text">단일 노드 시스템을 사용하는 경우 모든 인스턴스 유형에서 높은 쓰기 속도가 지원됩니다. 배포 도중 또는 이후에 BlueXP에서 빠른 쓰기 속도를 활성화할 수 있습니다.<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>.</block>
-  <block id="7c7627c6477255acb2239bd1be90f346" category="list-text">Azure 지역 지원은 를 참조하십시오<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="2eacfdd792ca3ab121472c95654b43ec" category="paragraph">Azure에서 Cloud Volumes ONTAP를 HA 쌍으로 구축할 경우, 다음 구성 중에서 선택할 수 있습니다.</block>
   <block id="b80fdfea42d505d96700af73261164a3" category="section-title">페이지 blob과 HA 쌍</block>
   <block id="2cdb7e570d475b109f07d648d27eec58" category="list-text">DS5_v2^1^</block>
@@ -717,4 +713,8 @@ PAYGO가 있는 단일 노드의 물리적 용량 352TiB
   <block id="5b538967bf32882139a5639328eec6d7" category="doc">Cloud Volumes ONTAP 9.13.0 릴리스 정보</block>
   <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Azure VM 확장 사용 시 제한 사항</block>
   <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP는 배포 시 Azure VM(가상 머신) 확장 및 VM 애플리케이션을 지원하지 않습니다. VM 확장과 함께 Azure에서 Cloud Volumes ONTAP를 사용하면 작업이 지연되므로 NetApp에서는 이를 방지할 것을 권장합니다.</block>
+  <block id="0890aa708cef7529c2bd35cb7d2895df" category="paragraph">AWS 지역 지원에 대해서는 을 참조하십시오<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
+  <block id="f0de068c81c765820aca0fa8fe017396" category="list-text">Azure 지역 지원에 대해서는 을<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="ef9be83cb59b0572a3581a6724316e48" category="list-text">Google Cloud Platform 지역 지원은 을 참조하십시오<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
+  <block id="d798d4963d0ac509a1bda5483d9b9a52" category="paragraph"><block ref="5a94f18247116693735ff13d8eeaa964" category="inline-link-rx"></block>..</block>
 </blocks>
